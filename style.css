@@ -1,0 +1,50 @@
+body {
+  background: #070506 url("/img/main-bg.png");
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  /*ширина*/
+  width: 90%;
+  /*максимальная ширина*/
+  max-width: 1060px;
+  /*поместить в середину страницы*/
+  margin: auto;
+}
+
+.header {
+  /*Блоки распределяются по правилу CSS-flex*/
+  display: flex;
+  /*Меню выравнивается по середине относительно логотипа*/
+  align-items: center;
+  /*Оступит от верхушки 90px*/
+  padding-top: 90px;
+}
+.hero__subtitle {
+  display: block;
+  /*Устанавливает величину отступа от верхнего края элемента*/
+  margin-top: 78px;
+  /*Определяет размер шрифта элемента*/
+  font-size: 40px;
+  /*Межстрочный интервал*/
+  line-height: 100%;
+}
+
+.hero__title {
+  margin-top: 5px;
+  font-style: 64px;
+  line-height: 78;
+}
+
+.header__logo {
+  /*Логотип отодвинется от бара на 70px*/
+  margin-right: 70px;
+}
+
+.nav__link {
+  /*Убирает подчеркивания для ссылок*/
+  text-decoration: none;
+  color: #fff;
+  margin-right: 15px;
+}
